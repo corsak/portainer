@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"golang.org/x/net/websocket"
+	"github.com/golang/net/tree/master/websocket"
 )
 
 // WebSocketHandler represents an HTTP API handler for proxying requests to a web socket.
